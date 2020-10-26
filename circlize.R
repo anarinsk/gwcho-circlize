@@ -3,29 +3,17 @@ library(showtext)
 
 font_add_google("Nanum gothic")
 
-colnames(test_data)
+# Making mat from souce data 
 
-mat = as.matrix(test_data[-1]) 
-mat
-rownames(mat) = test_data$`대학전공`
+gen_mat <- function(df){
+  
+  mat = as.matrix(df[-1]) 
+  rownames(mat) = as.vector(unlist(df[,1]))
+  
+  mat 
+}
 
-mat
-
-showtext_auto() 
-chordDiagram(mat)
-
-
-circos.clear()
-circos.par(start.degree = 85, clock.wise = FALSE)
-chordDiagram(mat)
-
-
-
-grid.col = c(S1 = "red", S2 = "green", S3 = "blue",
-             E1 = "grey", E2 = "grey", E3 = "grey", E4 = "grey", E5 = "grey", E6 = "grey")
-
-colorMajor = c('red', 'green', 'blue', 'yellow', 'purple')
-colorHL = function(num, color, alpha_low=0.1, alpha_high=0.8){
+colorHL = function(num, color, alpha_high=0.8, alpha_low=0.1){
   
   hlcolor = adjustcolor(color[num], alpha.f = alpha_high)
   opcolor = adjustcolor(color, alpha.f = alpha_low)
@@ -34,27 +22,41 @@ colorHL = function(num, color, alpha_low=0.1, alpha_high=0.8){
   opcolor
 }
 
-colorHL(2,colorMajor)
+gen_grid_color <- function(matrix, colorM){
+  
+  ncol = length(mat[1,])
+  colorO = rep('grey',ncol) 
+  grid.col = c(colorM, colorO)
+  names(grid.col) = c(row.names(mat), colnames(mat))
+  
+  grid.col  
+}
 
-colorOpp = rep('grey',5) 
+plot_hi_chord <- function(mat, n, my_degree=89, a_hi=0.7, a_lo=0.05){
+  showtext_auto() 
+  
+  grid_col = gen_grid_color(mat, colorMajor)
+  circos.par(start.degree = my_degree, clock.wise = FALSE)
+  chordDiagram(mat, grid.col = grid_col, 
+               row.col = colorHL(n,colorMajor, a_hi, a_lo), 
+               annotationTrack = c("name","grid"))
+  abline(v = 0, lty = 2, col = "#00000080")
+  circos.clear()
+  
+}
 
-grid.col = c(colorMajor, colorOpp)
-names(grid.col) = c(test_data$`대학전공`, colnames(test_data)[-1])
-
-grid.col
-col(test_data)
-
-png("my_plot.png", width = 2400, height = 2400, res=300, antialias = "subpixel") 
-
-par(cex = 4, mar = c(0, 0, 0, 0))
-circos.clear()
-circos.par(start.degree = 89, clock.wise = FALSE)
-chordDiagram(mat, grid.col = grid.col, 
-             row.col = colorHL(5,colorMajor), 
-             annotationTrack = c("name","grid"))
+save_to_pdf <- function(plot_obj, name="tmp.pdf", my_width=7, my_height=7, font_size=1.5){
+  pdf(name, width=7, height=7,onefile=T)
+  par(cex = font_size, mar = c(0, 0, 0, 0))
+  print(plot_obj)
+  dev.off()
+}
 
 
-## all of your plotting code
 
-dev.off()
+mat = gen_mat(test_data)
+colorMajor = c('red', 'green', 'blue', 'yellow', 'purple')
+plot_hi_chord(mat, 2)
+save_to_pdf(plot_hi_chord(mat,3))
 
+colorHL(2, colorMajor)
