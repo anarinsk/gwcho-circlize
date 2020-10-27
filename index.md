@@ -1,17 +1,10 @@
----
-layout: post
-toc: false
-comments: true
-title: Generating Chord Diagram with R
-description: 코드 다이어그램 생성을 위한 RStudio
-
----
+## Generating Chord Diagram with R
 
 ## Info 
 
 - 작성: anarinsk 
 - repo: [https://github.com/anarinsk/gwcho-circlize](https://github.com/anarinsk/gwcho-circlize)
-
+- description: 코드 다이어그램 생성을 위한 RStudio 및 R 코드 
 
 ## 요약 
 
@@ -163,6 +156,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDkyNzYxLC01OTg4NDA1MjUsMTM3Nz
-Y4NDk5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbMTg1MTM0MDA1NiwtNTk4ODQwNTI1LDEzNz
+c2ODQ5OSwtMTI1NTUyMDQ2XX0=
 -->
