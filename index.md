@@ -112,6 +112,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 ## 소스 데이터 포맷 
 
+제대로 된 작업을 위해서는 두 개의 소스 데이터가 제공되어야 한다. 
+
 ### 전공-직업이동 데이터 
 
 전공-직업이동을 나타내는 csv 파일이 필요하다. 
@@ -134,7 +136,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 - csv 파일을 열어 지정해주자. 
 - 색깔을 지정하는 csv 파일 이름은 `color_selection.csv` 고정되어 있다. 
   - Binder를 로드할 때마다 올려줘야 한다. 
-  - 만일 영구적으로 바꾸고 싶다면 파일을 전달하면 된다. 
+  - 만일 영구적으로 바꾸고 싶다면 파일을 나에게 전달하라! 
 - 전공-직업이동 데이터에서 전공 수 만큼의 색깔 지정이 필요하다. 
 - 원색은 되도록 쓰지 않는 편을 권한다. 색 이름은 [https://www.datanovia.com/en/blog/awesome-list-of-657-r-color-names/](https://www.datanovia.com/en/blog/awesome-list-of-657-r-color-names/)를 참고 
 
@@ -152,6 +154,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg4NTYwNDMsLTU5ODg0MDUyNSwxMz
-c3Njg0OTksLTEyNTU1MjA0Nl19
+eyJoaXN0b3J5IjpbLTc2MDQyNzA4NywtMTc0ODg1NjA0MywtNT
+k4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMDQ2XX0=
 -->
