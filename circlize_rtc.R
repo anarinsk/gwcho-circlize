@@ -7,7 +7,8 @@ font_add_google("Nanum gothic")
 
 # Sourcing functions 
 #getwd()
-workinghome = "/home/rstudio/anari-github/gwcho-circlize/"
+#workinghome = "/home/rstudio/anari-github/gwcho-circlize/" # When you are in docker
+workinghome = "" # When you are in binder 
 if(!exists("gen_mat", mode="function")) source(paste0(workinghome,"functions.R"))
 
 wrap_oneside_chord("test_data.csv", c("프리랜서"), alpha_h=0.7, alpha_l=0.07, save_pdf=F) 
