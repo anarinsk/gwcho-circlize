@@ -1,6 +1,6 @@
-# Chord Diagram 생성기 
+# Generating Chord Diagram with R
 
-## Some Info 
+## Info 
 
 - 작성: anarinsk 
 - repo: [https://github.com/anarinsk/gwcho-circlize](https://github.com/anarinsk/gwcho-circlize)
@@ -156,5 +156,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzY4NDk5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbLTU5ODg0MDUyNSwxMzc3Njg0OTksLTEyNT
+U1MjA0Nl19
 -->
