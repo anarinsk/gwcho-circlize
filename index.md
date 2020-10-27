@@ -12,10 +12,10 @@
 - url을 눌러 mybinder.org에 필요한 세팅을 마치고 RStudio를 띄운다. 
 	- 처음 띄울 때는 오래 걸리니 당황하지 마시라. 
 - 원자료를 업로드 한다. 
-  - 전공 &rarr; 직업을 나타내는 cs 테이블 
-  - 전공 컬러 테이블
-- 코드를 실행해서 원하는 결과를 얻는다. 
-  - 화면은 확인하는 용도만 
+  - 전공 &rarr; 직업을 나타내는 csv 테이블 
+  - 전공 컬러 csv 테이블
+- 코드를 실행해서 코드 다이어그램을 얻는다. 
+  - 화면은 확인하는 용도만 (해상도가 나쁘더라도 걱정 마시라!)
   - pdf로 생성한 후 다운로드 받아서 활용 
 
 
@@ -156,5 +156,5 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDkxMjg3OCwtMTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbMTM3NzY4NDk5LC0xMjU1NTIwNDZdfQ==
 -->
