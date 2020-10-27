@@ -112,21 +112,17 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 ## 소스 데이터 포맷 
 
+### 전공-직업이동 데이터 
+
+전공-직업이동을 나타내는 csv 파일이 필요하다. 
+- csv 데이터 포맷은 보는 그대로 이다. 
+	- 첫 행에는 1열을 제외하고 직업이 들어간다. 
+	- 첫 열에는 1행을 제외하고 전공이 들어간다. 
+	- 내부의 매트릭스는 열에서 행으로 이동한 인원을 나타낸다. 
+- 아래 그림처럼 대학 전공에서 각 직업으로 이동하는 방식으로 표현해주면 된다. 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true)
 
-
-- CSV 데이터 포맷은 보는 그대로 이다. 
-- 첫 행에는 1열을 제외하고 직업이 들어간다. 
-- 첫 열에는 1행을 제외하고 전공이 들어간다. 
-- 내부의 매트릭스는 열에서 행으로 이동한 인원을 나타낸다. 
-
-
-### 전공-직업이동 데이터 
-
-
-- 전공-직업이동을 나타내는 csv 파일이 필요하다. 
-- 아래 그림처럼 대학 전공에서 각 직업으로 이동하는 방식으로 표현해주면 된다. 
 - 엑셀로 직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
 
@@ -156,6 +152,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTM0MDA1NiwtNTk4ODQwNTI1LDEzNz
-c2ODQ5OSwtMTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTE3NDg4NTYwNDMsLTU5ODg0MDUyNSwxMz
+c3Njg0OTksLTEyNTU1MjA0Nl19
 -->
