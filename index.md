@@ -4,11 +4,8 @@ toc: false
 comments: true
 title: Generating Chord Diagram with R
 description: 코드 다이어그램 생성을 위한 RStudio
-categories: [coding-tool, web-tool]
 
 ---
-
-# Generating Chord Diagram with R
 
 ## Info 
 
@@ -166,6 +163,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQ4NjQ5NSwtNTk4ODQwNTI1LDEzNz
-c2ODQ5OSwtMTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTM5NDkyNzYxLC01OTg4NDA1MjUsMTM3Nz
+Y4NDk5LC0xMjU1NTIwNDZdfQ==
 -->
