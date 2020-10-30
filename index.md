@@ -79,9 +79,8 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
   
 - 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: style="textalign:center; " width="700"} 
 
-<kbd>![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: style="textalign:center; " width="700"} 
-</kbd>
 
 
 - 두번째 코드는 전공을 선택하고 이 전공이 어느 직업으로 가는지를 하일라이팅해주는 코드 다이어그램이다. pdf로 저장된다. 
@@ -154,7 +153,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA3NzA3LC0yMzI3NTExNzcsMTUxOT
+eyJoaXN0b3J5IjpbNDY5NzM4MjYwLC0yMzI3NTExNzcsMTUxOT
 gxNTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5
 OSwtMTI1NTUyMDQ2XX0=
 -->
