@@ -63,7 +63,7 @@
 - 2분면에서 아래 그림과 같이 여기까지 마우스 드래그 앤 드롭으로 선택한 후, `Run` 버튼을 누른다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: style="textalign:center; " width="700"}  
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: .center}{: width="700"}
 
 
 - 여기까지 하면 준비가 완료된 것이다. 
@@ -155,7 +155,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY5NDU0OTksMzg4OTE5ODMxLC0xND
+eyJoaXN0b3J5IjpbLTEzMzA2MTQzMDQsMzg4OTE5ODMxLC0xND
 YxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgx
 NTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OS
 wtMTI1NTUyMDQ2XX0=
