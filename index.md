@@ -63,8 +63,7 @@
 - 2분면에서 아래 그림과 같이 여기까지 마우스 드래그 앤 드롭으로 선택한 후, `Run` 버튼을 누른다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: margin: auto; display: block; border:1px solid #021a40}{: width="700"}
-{: style="color:gray; font-size: 80%; text-align: center;"}
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: style="margin: auto; display: block; border:1px solid #021a40;"}{: width="700"}
 
 - 여기까지 하면 준비가 완료된 것이다. 
 - 실행이 잘 되는지 보기 위해서 샘플로 2개의 코드를 넣어 놓았다. 
@@ -155,8 +154,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzczMDg0MSwzODg5MTk4MzEsLTE0Nj
-E1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1
-NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC
-0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbLTI3NDUwMjMsMzg4OTE5ODMxLC0xNDYxNT
+k1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNTU1
+MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwtMT
+I1NTUyMDQ2XX0=
 -->
