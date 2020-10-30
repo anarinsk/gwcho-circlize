@@ -1,3 +1,3 @@
 # gwcho-circlize
 
-[Landing page by Korea](https://anarinsk.github.io/gwcho-circlize/)
+[Landing page by Korean language](https://anarinsk.github.io/gwcho-circlize/)
