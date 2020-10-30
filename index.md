@@ -28,6 +28,7 @@
 [https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio](https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio)
 
 
+
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true)
 {: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
 
@@ -43,7 +44,8 @@
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_8.png?raw=true)
-{: style="margin: auto; display: block; border:3px solid #021a40;"}{: width="1000"}
+{: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
+
 ## Hands-on Test 
 
 
@@ -154,8 +156,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcwNDAyMTgsMzg4OTE5ODMxLC0xND
-YxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgx
-NTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OS
-wtMTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTI0Nzg4MDMxOSwzODg5MTk4MzEsLTE0Nj
+E1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1
+NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC
+0xMjU1NTIwNDZdfQ==
 -->
