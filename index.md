@@ -64,7 +64,7 @@
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: margin: auto; display: block; border:1px solid #021a40}{: width="700"}
-
+{: style="color:gray; font-size: 80%; text-align: center;"}
 
 - 여기까지 하면 준비가 완료된 것이다. 
 - 실행이 잘 되는지 보기 위해서 샘플로 2개의 코드를 넣어 놓았다. 
@@ -155,8 +155,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQxOTk3MTgsMzg4OTE5ODMxLC0xND
-YxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgx
-NTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OS
-wtMTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbMTMyMzczMDg0MSwzODg5MTk4MzEsLTE0Nj
+E1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1
+NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC
+0xMjU1NTIwNDZdfQ==
 -->
