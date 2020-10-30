@@ -31,7 +31,7 @@
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
 
-- 링크를 클릭하면 bider.org 서비스가 필요한 서버를 생성한다. 
+- bider.org 서비스가 필요한 서버를 생성한다. 
 - 처음에는 상당한 시간이 소요 (5분~10분)
 - 일단 한번 생성된 이후에는 일정 시간 동안 활용하면 바로 사라지지는 않는다. 
 
@@ -152,8 +152,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxOTMxMTU0LDM4ODkxOTgzMSwtMTQ2MT
-U5NTczOSwtMTk2NDI5NTAxNSwtMjMyNzUxMTc3LDE1MTk4MTU1
-NTAsLTE3NDg4NTYwNDMsLTU5ODg0MDUyNSwxMzc3Njg0OTksLT
-EyNTU1MjA0Nl19
+eyJoaXN0b3J5IjpbLTExMzE0MzUxNjQsMzg4OTE5ODMxLC0xND
+YxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgx
+NTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OS
+wtMTI1NTUyMDQ2XX0=
 -->
