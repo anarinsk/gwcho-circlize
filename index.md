@@ -2,6 +2,7 @@
 
 ## Info 
 
+- 작성: anarinsk 
 - repo: [https://github.com/anarinsk/gwcho-circlize](https://github.com/anarinsk/gwcho-circlize)
 - description: 코드 다이어그램 생성을 위한 RStudio Binder 구동 및 R 코드 
 
@@ -79,6 +80,7 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
   
 - 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
+
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: width="700"}{: .center}
 
 
@@ -153,7 +155,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLT
-IzMjc1MTE3NywxNTE5ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4
-NDA1MjUsMTM3NzY4NDk5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC0xOT
+Y0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNTU1MCwtMTc0ODg1
+NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMDQ2XX
+0=
 -->
