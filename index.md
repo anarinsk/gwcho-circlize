@@ -27,7 +27,7 @@
 아래 링크를 클릭한다. 
 [https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio](https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio)
 
-
+- 아래와 같은 화면이 보일 것이다. 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
 
@@ -155,7 +155,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTYzNTg0MSwzODg5MTk4MzEsLTE0Nj
+eyJoaXN0b3J5IjpbLTk1OTc1MzAzMCwzODg5MTk4MzEsLTE0Nj
 E1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1
 NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC
 0xMjU1NTIwNDZdfQ==
