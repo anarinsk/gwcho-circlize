@@ -2,9 +2,8 @@
 
 ## Info 
 
-- 작성: anarinsk 
 - repo: [https://github.com/anarinsk/gwcho-circlize](https://github.com/anarinsk/gwcho-circlize)
-- description: 코드 다이어그램 생성을 위한 RStudio 및 R 코드 
+- description: 코드 다이어그램 생성을 위한 RStudio Binder 구동 및 R 코드 
 
 ## 요약 
 
@@ -28,7 +27,7 @@
 [https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio](https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio)
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true){: style="textalign:center; " width="700"}  
 
 
 - 링크를 클릭하면 bider.org 서비스가 필요한 서버를 생성한다. 
@@ -42,7 +41,7 @@
 아래 화면과 같이 RStudio가 론칭되면 서버가 잘 생성된 것이다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_8.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_8.png?raw=true){: style="textalign:center; " width="700"}  
 
 
 ## Hands-on Test 
@@ -54,7 +53,7 @@
 - 4분면로 나뉜 창에서 4분면에 `Files` 탭으로 간다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_2.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_2.png?raw=true){: style="textalign:center; " width="700"}  
 
 
 
@@ -63,7 +62,7 @@
 - 2분면에서 아래 그림과 같이 여기까지 마우스 드래그 앤 드롭으로 선택한 후, `Run` 버튼을 누른다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: style="textalign:center; " width="700"}  
 
 
 - 여기까지 하면 준비가 완료된 것이다. 
@@ -81,7 +80,7 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
 - 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: style="textalign:center; " width="700"}  
 
 
 - 두번째 코드는 전공을 선택하고 이 전공이 어느 직업으로 가는지를 하일라이팅해주는 코드 다이어그램이다. pdf로 저장된다. 
@@ -123,7 +122,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 	- 내부의 매트릭스는 열에서 행으로 이동한 인원을 나타낸다. 
 - 아래 그림처럼 대학 전공에서 각 직업으로 이동하는 방식으로 표현해주면 된다. 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true)
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true){: style="textalign:center; " width="500"}  
 
 - 엑셀로 직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
@@ -154,6 +153,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDQyNzA4NywtMTc0ODg1NjA0MywtNT
+eyJoaXN0b3J5IjpbLTc4MDQ5NDA4MCwtMTc0ODg1NjA0MywtNT
 k4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMDQ2XX0=
 -->
