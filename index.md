@@ -29,8 +29,7 @@
 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true)
-{: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
 
 - 링크를 클릭하면 bider.org 서비스가 필요한 서버를 생성한다. 
 - 처음에는 상당한 시간이 소요 (5분~10분)
@@ -44,7 +43,7 @@
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_8.png?raw=true)
-{: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
+{: style="margin: auto; display: block; border:px solid #021a40;"}{: width="1000"}
 
 ## Hands-on Test 
 
@@ -156,7 +155,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Nzg4MDMxOSwzODg5MTk4MzEsLTE0Nj
+eyJoaXN0b3J5IjpbMTg1OTYzNTg0MSwzODg5MTk4MzEsLTE0Nj
 E1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1
 NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC
 0xMjU1NTIwNDZdfQ==
