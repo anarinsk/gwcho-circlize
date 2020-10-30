@@ -53,7 +53,7 @@
 - 4분면로 나뉜 창에서 4분면에 `Files` 탭으로 간다. 
 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_2.png?raw=true){: style="textalign:center; " width="700"}  
+![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_2.png?raw=true){: style="textalign:center; " width="500"}  
 
 
 
@@ -153,6 +153,6 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDQ5NDA4MCwtMTc0ODg1NjA0MywtNT
+eyJoaXN0b3J5IjpbMTUxOTgxNTU1MCwtMTc0ODg1NjA0MywtNT
 k4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMDQ2XX0=
 -->
