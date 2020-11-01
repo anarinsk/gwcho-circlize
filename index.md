@@ -116,6 +116,9 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 제대로 된 작업을 위해서는 두 개의 소스 데이터가 제공되어야 한다. 
 
+1. 전공-직업이동 데이터 
+2. 전공 
+
 ### 전공-직업이동 데이터 
 
 전공-직업이동을 나타내는 csv 파일이 필요하다. 
@@ -131,7 +134,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
 
 
-### 색깔 데이터 
+### 전공 색깔 데이터 
 
 
 - 코드 다이어그램을 그리기 위해서는 전공에 관해서 색깔이 지정되어야 한다. 
@@ -156,9 +159,9 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMj
-AxMzcwNzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5
-MTk4MzEsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MT
-E3NywxNTE5ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUs
-MTM3NzY4NDk5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbNjMyOTkyMzA4LDE2NTI4ODk0MDYsLTE5OT
+E3NjcxMDAsLTIwMTM3MDczNzIsLTExMTc1MTAxMjYsLTExMzE0
+MzUxNjQsMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC0xOTY0Mjk1MD
+E1LC0yMzI3NTExNzcsMTUxOTgxNTU1MCwtMTc0ODg1NjA0Mywt
+NTk4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMDQ2XX0=
 -->
