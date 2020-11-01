@@ -2,7 +2,6 @@
 
 ## Info 
 
-- 작성: anarinsk 
 - repo: [https://github.com/anarinsk/gwcho-circlize](https://github.com/anarinsk/gwcho-circlize)
 - description: 코드 다이어그램 생성을 위한 RStudio Binder 구동 및 R 코드 
 
@@ -157,7 +156,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTQxOTE3MCwtMTk5MTc2NzEwMCwtMj
+eyJoaXN0b3J5IjpbMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMj
 AxMzcwNzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5
 MTk4MzEsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MT
 E3NywxNTE5ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUs
