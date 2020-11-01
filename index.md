@@ -31,7 +31,10 @@
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_7.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
 
-- bider.org 서비스가 필요한 서버를 생성한다. 
+-
+
+
+- 링크를 클릭하면 bider.org 서비스가 필요한 서버를 생성한다. 
 - 처음에는 상당한 시간이 소요 (5분~10분)
 - 일단 한번 생성된 이후에는 일정 시간 동안 활용하면 바로 사라지지는 않는다. 
 
@@ -41,7 +44,9 @@
 
 아래 화면과 같이 RStudio가 론칭되면 서버가 잘 생성된 것이다. 
 
+
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_8.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
+
 
 ## Hands-on Test 
 
@@ -62,6 +67,7 @@
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_4.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="800"}
+
 
 - 여기까지 하면 준비가 완료된 것이다. 
 - 실행이 잘 되는지 보기 위해서 샘플로 2개의 코드를 넣어 놓았다. 
@@ -122,7 +128,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="500"}
 
-- 엑셀로 작업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
+- 엑셀로 작직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
 
 
@@ -151,9 +157,9 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE3NjcxMDAsLTIwMTM3MDczNzIsLT
-ExMTc1MTAxMjYsLTExMzE0MzUxNjQsMzg4OTE5ODMxLC0xNDYx
-NTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNT
-U1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwt
-MTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTg3OTQxOTE3MCwtMTk5MTc2NzEwMCwtMj
+AxMzcwNzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5
+MTk4MzEsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MT
+E3NywxNTE5ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUs
+MTM3NzY4NDk5LC0xMjU1NTIwNDZdfQ==
 -->
