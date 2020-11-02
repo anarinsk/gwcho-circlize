@@ -34,7 +34,8 @@
 
 
 - 링크를 클릭하면 bider.org 서비스가 필요한 서버를 생성한다. 
-- 처음에는 상당한 시간이 소요 (5분~10분)
+- 처음에는 상당한 시간이 소요 (5분~10분, 때로는 30분 이상 걸릴 수도 있다)
+	- Binder라는 서비스가 상용 클라우드의 남는 공간을 활용하는 것이므로, 설정 시간에는 감내가 필요하다. 
 - 일단 한번 생성된 이후에는 일정 시간 동안 활용하면 바로 사라지지는 않는다. 
 
 
@@ -165,10 +166,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzgwMTYxOSwxNjgzMzM0MTUwLDc3OD
-czMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3
-MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLT
-E0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5
-ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4ND
-k5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbMTIxMTE1OTE5NCwtOTUzODAxNjE5LDE2OD
+MzMzQxNTAsNzc4NzMxMCwxNjUyODg5NDA2LC0xOTkxNzY3MTAw
+LC0yMDEzNzA3MzcyLC0xMTE3NTEwMTI2LC0xMTMxNDM1MTY0LD
+M4ODkxOTgzMSwtMTQ2MTU5NTczOSwtMTk2NDI5NTAxNSwtMjMy
+NzUxMTc3LDE1MTk4MTU1NTAsLTE3NDg4NTYwNDMsLTU5ODg0MD
+UyNSwxMzc3Njg0OTksLTEyNTU1MjA0Nl19
 -->
