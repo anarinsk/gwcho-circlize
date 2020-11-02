@@ -142,7 +142,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 - 색깔을 지정하는 csv 파일 이름은 `color_selection.csv` 고정되어 있다. 
   - Binder를 로드할 때마다 올려줘야 한다. 
   - 디폴트는 `test_data.csv`에 맞춰져 있다. 
-	  - 만일 디폴트를 바꾸고 싶다면 파일을 전달해달라! 
+	  - 작업이 안정되서 디폴트 전공색 컬러를 고정하고 싶다면 파일을 전달해달라! 
 - 전공-직업이동 데이터에서 전공 수 만큼의 색깔 지정이 필요하다. 
 - 원색은 되도록 쓰지 않는 편을 권한다. 
 	- 색 이름은 [https://www.datanovia.com/en/blog/awesome-list-of-657-r-color-names/](https://www.datanovia.com/en/blog/awesome-list-of-657-r-color-names/)를 참고 
@@ -161,9 +161,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NzMxMCwxNjUyODg5NDA2LC0xOTkxNz
-Y3MTAwLC0yMDEzNzA3MzcyLC0xMTE3NTEwMTI2LC0xMTMxNDM1
-MTY0LDM4ODkxOTgzMSwtMTQ2MTU5NTczOSwtMTk2NDI5NTAxNS
-wtMjMyNzUxMTc3LDE1MTk4MTU1NTAsLTE3NDg4NTYwNDMsLTU5
-ODg0MDUyNSwxMzc3Njg0OTksLTEyNTU1MjA0Nl19
+eyJoaXN0b3J5IjpbNDE3OTU0MTEwLDc3ODczMTAsMTY1Mjg4OT
+QwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3MiwtMTExNzUxMDEy
+NiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLTE0NjE1OTU3MzksLT
+E5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1NTUwLC0xNzQ4
+ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC0xMjU1NTIwND
+ZdfQ==
 -->
