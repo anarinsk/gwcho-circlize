@@ -111,7 +111,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
   - 복수 선택이 가능하다. 단 `c("A", "B")`의 형태로 써줘야 한다. 
 - alpha_h: 하일라이트되는 코드 선의 강도를 나타낸다. (선을 진하게 하고 싶으면 값을 높이면 된다. 0~1)
 - alpha_l: 하일라이트되지 않는 코드 선의 강도를 나탄낸다. 
-- save_pdf: 결과를 화면으로 볼지 pdf로 볼지를 나타낸다. (`T`/`F`)
+- save_pdf: 결과를 pdf로도 저장할지 여부 나타낸다. (`T`/`F`)
 
 
 
@@ -165,10 +165,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MzM4MzQ2LDE2ODMzMzQxNTAsNzc4Nz
-MxMCwxNjUyODg5NDA2LC0xOTkxNzY3MTAwLC0yMDEzNzA3Mzcy
-LC0xMTE3NTEwMTI2LC0xMTMxNDM1MTY0LDM4ODkxOTgzMSwtMT
-Q2MTU5NTczOSwtMTk2NDI5NTAxNSwtMjMyNzUxMTc3LDE1MTk4
-MTU1NTAsLTE3NDg4NTYwNDMsLTU5ODg0MDUyNSwxMzc3Njg0OT
-ksLTEyNTU1MjA0Nl19
+eyJoaXN0b3J5IjpbLTMwNjcyNTgyNSwxNjgzMzM0MTUwLDc3OD
+czMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3
+MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLT
+E0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5
+ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4ND
+k5LC0xMjU1NTIwNDZdfQ==
 -->
