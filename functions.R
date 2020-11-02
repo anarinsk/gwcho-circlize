@@ -91,6 +91,7 @@ wrap_oneside_chord <- function(name, elements, alpha_h=0.9, alpha_l=0.08, save_p
   if (save_pdf==F){
     plot_hichord(mat, color_df)
   } else {
+    plot_hichord(mat, color_df)
     name_pdf = paste0("cplot-", paste0(elements, collapse="_"),".pdf")
     save_to_pdf(plot_hichord(mat, color_df),name_pdf, font_size=label_size)
   }
