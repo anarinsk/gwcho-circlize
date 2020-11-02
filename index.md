@@ -78,7 +78,7 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
 ```
 
 
-- 해당 줄 끝에 커서를 대고 역시 `Run`을 누른다. 
+- 해당 줄 끝에 커서를 대고 역시 <kbd>Run</kbd>을 누른다. 
   
 - 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
@@ -161,10 +161,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3OTU0MTEwLDc3ODczMTAsMTY1Mjg4OT
-QwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3MiwtMTExNzUxMDEy
-NiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLTE0NjE1OTU3MzksLT
-E5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1NTUwLC0xNzQ4
-ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4NDk5LC0xMjU1NTIwND
-ZdfQ==
+eyJoaXN0b3J5IjpbMTYwMjcwNDc1Myw3Nzg3MzEwLDE2NTI4OD
+k0MDYsLTE5OTE3NjcxMDAsLTIwMTM3MDczNzIsLTExMTc1MTAx
+MjYsLTExMzE0MzUxNjQsMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC
+0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNTU1MCwtMTc0
+ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMD
+Q2XX0=
 -->
