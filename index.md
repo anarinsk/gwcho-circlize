@@ -92,7 +92,7 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
   - 필요하면 여러 파일을 선택한 후 `More` -> `Export`로 다운로드해서 쓰면 된다. 
   - 굳이 pdf를 쓰는 이유는? 
 	  - pdf는 벡터 그래픽이다. 화면의 확대와 축소 시 화질의 변화가 없다. 
-	  - jpg, png가 필요한 경우 해당 pdf 화면을 캡쳐해
+	  - jpg, png가 필요한 경우 해당 pdf 화면을 캡쳐해서 쓰길 권한다. 
 
 
 
@@ -165,10 +165,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzQ4OTM4MCwxNjgzMzM0MTUwLDc3OD
-czMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3
-MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLT
-E0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5
-ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4ND
-k5LC0xMjU1NTIwNDZdfQ==
+eyJoaXN0b3J5IjpbNTA3MzM4MzQ2LDE2ODMzMzQxNTAsNzc4Nz
+MxMCwxNjUyODg5NDA2LC0xOTkxNzY3MTAwLC0yMDEzNzA3Mzcy
+LC0xMTE3NTEwMTI2LC0xMTMxNDM1MTY0LDM4ODkxOTgzMSwtMT
+Q2MTU5NTczOSwtMTk2NDI5NTAxNSwtMjMyNzUxMTc3LDE1MTk4
+MTU1NTAsLTE3NDg4NTYwNDMsLTU5ODg0MDUyNSwxMzc3Njg0OT
+ksLTEyNTU1MjA0Nl19
 -->
