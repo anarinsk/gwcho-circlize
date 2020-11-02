@@ -107,11 +107,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 - `csv_name`: csv 파일의 이름을 나타낸다. 필요한 파일을 `Files`에서 업로드한 후 해당 이름으로 바꿔서 실행하면 된다. 업로드는 역시 4사분면의 업로드 버튼을 활용하면 된다. 
-- `filtering_elements`: 직업 혹은 전공을 선택하는 인자이다. 
+- `filtering_elements`: 직업 혹은 전공을 선택하는 인자
   - 복수 선택이 가능하다. 단 `c("A", "B")`의 형태로 써줘야 한다. 
-- alpha_h: 하일라이트되는 코드 선의 강도를 나타낸다. (선을 진하게 하고 싶으면 값을 높이면 된다. 0~1)
-- alpha_l: 하일라이트되지 않는 코드 선의 강도를 나탄낸다. 
-- save_pdf: 결과를 pdf로도 저장할지 여부 나타낸다. (`T`/`F`)
+- alpha_h: 하일라이트되는 코드 선의 강도 (선을 진하게 하고 싶으면 값을 높이면 된다. 0~1)
+- alpha_l: 하일라이트되지 않는 코드 선의 강도 
+- save_pdf: 결과를 pdf로도 저장할지 여부 (`T`/`F`)
 
 
 
@@ -165,7 +165,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjcyNTgyNSwxNjgzMzM0MTUwLDc3OD
+eyJoaXN0b3J5IjpbLTk1MzgwMTYxOSwxNjgzMzM0MTUwLDc3OD
 czMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3
 MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLT
 E0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5
