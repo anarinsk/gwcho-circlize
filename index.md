@@ -87,8 +87,12 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
 
 
 - 두번째 코드는 전공을 선택하고 이 전공이 어느 직업으로 가는지를 하일라이팅해주는 코드 다이어그램이다. pdf로 저장된다. 
+  - 화면에도 표시되고 pdf 파일로도 저장된다. 
   - 저장된 pdf는 `Files` 탭에서 확인할 수 있다. 
   - 필요하면 여러 파일을 선택한 후 `More` -> `Export`로 다운로드해서 쓰면 된다. 
+  - 굳이 pdf를 쓰는 이유는? 
+	  - pdf는 벡터 그래픽이다. 화면의 확대와 축소 시 화질의 변화가 없다. 
+	  - jpg, png가 필요한 경우 해당 pdf 화면을 캡쳐해
 
 
 
@@ -161,10 +165,10 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzMzNDE1MCw3Nzg3MzEwLDE2NTI4OD
-k0MDYsLTE5OTE3NjcxMDAsLTIwMTM3MDczNzIsLTExMTc1MTAx
-MjYsLTExMzE0MzUxNjQsMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC
-0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNTU1MCwtMTc0
-ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwtMTI1NTUyMD
-Q2XX0=
+eyJoaXN0b3J5IjpbLTMxMzQ4OTM4MCwxNjgzMzM0MTUwLDc3OD
+czMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3
+MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLT
+E0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5
+ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUsMTM3NzY4ND
+k5LC0xMjU1NTIwNDZdfQ==
 -->
