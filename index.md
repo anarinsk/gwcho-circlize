@@ -134,7 +134,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 - 아래 그림처럼 대학 전공에서 각 직업으로 이동하는 방식으로 표현해주면 된다. 
 
 
-->![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true) {: width="500"}<-
+->![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true) {: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
 
 - 엑셀로 작직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
@@ -167,11 +167,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI2MzEzMzcsLTM5NDgwMTczMCwtMT
-UxMTg1MTEwMCwxMjExMTU5MTk0LC05NTM4MDE2MTksMTY4MzMz
-NDE1MCw3Nzg3MzEwLDE2NTI4ODk0MDYsLTE5OTE3NjcxMDAsLT
-IwMTM3MDczNzIsLTExMTc1MTAxMjYsLTExMzE0MzUxNjQsMzg4
-OTE5ODMxLC0xNDYxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NT
-ExNzcsMTUxOTgxNTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1
-LDEzNzc2ODQ5OV19
+eyJoaXN0b3J5IjpbLTEwODM1MzQyNSwtMzk0ODAxNzMwLC0xNT
+ExODUxMTAwLDEyMTExNTkxOTQsLTk1MzgwMTYxOSwxNjgzMzM0
+MTUwLDc3ODczMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMj
+AxMzcwNzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5
+MTk4MzEsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MT
+E3NywxNTE5ODE1NTUwLC0xNzQ4ODU2MDQzLC01OTg4NDA1MjUs
+MTM3NzY4NDk5XX0=
 -->
