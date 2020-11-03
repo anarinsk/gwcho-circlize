@@ -133,7 +133,8 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 	- 내부의 매트릭스는 열에서 행으로 이동한 인원을 나타낸다. 
 - 아래 그림처럼 대학 전공에서 각 직업으로 이동하는 방식으로 표현해주면 된다. 
 
-![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true){: .style/test.css}{: width="500"}
+
+->![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true) {: width="500"}<-
 
 - 엑셀로 작직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
@@ -166,11 +167,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDgwMTczMCwtMTUxMTg1MTEwMCwxMj
-ExMTU5MTk0LC05NTM4MDE2MTksMTY4MzMzNDE1MCw3Nzg3MzEw
-LDE2NTI4ODk0MDYsLTE5OTE3NjcxMDAsLTIwMTM3MDczNzIsLT
-ExMTc1MTAxMjYsLTExMzE0MzUxNjQsMzg4OTE5ODMxLC0xNDYx
-NTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NTExNzcsMTUxOTgxNT
-U1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1LDEzNzc2ODQ5OSwt
-MTI1NTUyMDQ2XX0=
+eyJoaXN0b3J5IjpbLTE3MTI2MzEzMzcsLTM5NDgwMTczMCwtMT
+UxMTg1MTEwMCwxMjExMTU5MTk0LC05NTM4MDE2MTksMTY4MzMz
+NDE1MCw3Nzg3MzEwLDE2NTI4ODk0MDYsLTE5OTE3NjcxMDAsLT
+IwMTM3MDczNzIsLTExMTc1MTAxMjYsLTExMzE0MzUxNjQsMzg4
+OTE5ODMxLC0xNDYxNTk1NzM5LC0xOTY0Mjk1MDE1LC0yMzI3NT
+ExNzcsMTUxOTgxNTU1MCwtMTc0ODg1NjA0MywtNTk4ODQwNTI1
+LDEzNzc2ODQ5OV19
 -->
