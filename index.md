@@ -135,7 +135,7 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_6.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="500"}
 
-- 엑셀로 작직업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
+- 이 파일을 엑셀로 작업할 경우 반드시 "csv utf-8(쉼표로분리)(*.csv)로 저장해야 한다. 다른 csv 포맷으로 저장할 경우 에러의 원인이 된다. 
 - 파일을 넣고 코드 다이어그램을 생성할 때 `file_name`을 이 녀석으로 맞춰주자. 
 
 
@@ -166,11 +166,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTE1OTE5NCwyMjkyNzY2MjYsLTEwOD
-M1MzQyNSwtMzk0ODAxNzMwLC0xNTExODUxMTAwLDEyMTExNTkx
-OTQsLTk1MzgwMTYxOSwxNjgzMzM0MTUwLDc3ODczMTAsMTY1Mj
-g4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcwNzM3MiwtMTExNzUx
-MDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4MzEsLTE0NjE1OTU3Mz
-ksLTE5NjQyOTUwMTUsLTIzMjc1MTE3NywxNTE5ODE1NTUwLC0x
-NzQ4ODU2MDQzXX0=
+eyJoaXN0b3J5IjpbLTE5Nzc4ODYzNDUsMTIxMTE1OTE5NCwyMj
+kyNzY2MjYsLTEwODM1MzQyNSwtMzk0ODAxNzMwLC0xNTExODUx
+MTAwLDEyMTExNTkxOTQsLTk1MzgwMTYxOSwxNjgzMzM0MTUwLD
+c3ODczMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcw
+NzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4Mz
+EsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3Nywx
+NTE5ODE1NTUwXX0=
 -->
