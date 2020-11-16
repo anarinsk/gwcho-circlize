@@ -80,9 +80,13 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
 
 - 해당 명령어에 커서를 위치 시키고 역시 <kbd>Run</kbd>을 누른다. 
 
-- 대체로 필요한 코
+- 필요한 코드 다이어그램의 유형은 두 가지로 간주하겠다. 
+	1. 특정 직업군이 어느 전공에서 왔는가? 
+	2. 특정 전공이 어느 직업군으로 가는가? 
   
-- 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
+  - 아래에서는 이 두가지 유형의 코드 다이어그램 시각화를 달성하는 방법을 설명한다. 
+    
+- 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공(직업 <- 전고)에서 왔는지를 하일라이팅 하는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
@@ -167,11 +171,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyOTU2NDI2LC0xOTc3ODg2MzQ1LDEyMT
-ExNTkxOTQsMjI5Mjc2NjI2LC0xMDgzNTM0MjUsLTM5NDgwMTcz
-MCwtMTUxMTg1MTEwMCwxMjExMTU5MTk0LC05NTM4MDE2MTksMT
-Y4MzMzNDE1MCw3Nzg3MzEwLDE2NTI4ODk0MDYsLTE5OTE3Njcx
-MDAsLTIwMTM3MDczNzIsLTExMTc1MTAxMjYsLTExMzE0MzUxNj
-QsMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC0xOTY0Mjk1MDE1LC0y
-MzI3NTExNzddfQ==
+eyJoaXN0b3J5IjpbMTUwNDk2NzMzNSwtMTk3Nzg4NjM0NSwxMj
+ExMTU5MTk0LDIyOTI3NjYyNiwtMTA4MzUzNDI1LC0zOTQ4MDE3
+MzAsLTE1MTE4NTExMDAsMTIxMTE1OTE5NCwtOTUzODAxNjE5LD
+E2ODMzMzQxNTAsNzc4NzMxMCwxNjUyODg5NDA2LC0xOTkxNzY3
+MTAwLC0yMDEzNzA3MzcyLC0xMTE3NTEwMTI2LC0xMTMxNDM1MT
+Y0LDM4ODkxOTgzMSwtMTQ2MTU5NTczOSwtMTk2NDI5NTAxNSwt
+MjMyNzUxMTc3XX0=
 -->
