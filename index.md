@@ -8,7 +8,7 @@
 ## 요약 
 
 
-- url을 눌러 mybinder.org에 필요한 세팅을 마치고 RStudio를 띄운다. 
+- [mybinder url](https://mybinder.org/v2/gh/anarinsk/gwcho-circlize/main?urlpath=rstudio)을 눌러 mybinder.org에 필요한 세팅을 마치고 RStudio를 띄운다. 
 	- 처음 띄울 때는 오래 걸리니 당황하지 마시라. 
 - 원자료를 업로드 한다. 
   - 전공 &rarr; 직업을 나타내는 csv 테이블 
@@ -78,8 +78,9 @@ wrap_oneside_chord("test_data.csv", c("프리랜서"), alpha_h=0.7, alpha_l=0.07
 wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, alpha_l=0.07, save_pdf=T) 
 ```
 
-
 - 해당 명령어에 커서를 위치 시키고 역시 <kbd>Run</kbd>을 누른다. 
+
+- 대체로 필요한 코
   
 - 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅해주는 코드 다이어그램이다. 화면 상에만 나타난다. 
 
@@ -166,11 +167,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc4ODYzNDUsMTIxMTE1OTE5NCwyMj
-kyNzY2MjYsLTEwODM1MzQyNSwtMzk0ODAxNzMwLC0xNTExODUx
-MTAwLDEyMTExNTkxOTQsLTk1MzgwMTYxOSwxNjgzMzM0MTUwLD
-c3ODczMTAsMTY1Mjg4OTQwNiwtMTk5MTc2NzEwMCwtMjAxMzcw
-NzM3MiwtMTExNzUxMDEyNiwtMTEzMTQzNTE2NCwzODg5MTk4Mz
-EsLTE0NjE1OTU3MzksLTE5NjQyOTUwMTUsLTIzMjc1MTE3Nywx
-NTE5ODE1NTUwXX0=
+eyJoaXN0b3J5IjpbMjYyOTU2NDI2LC0xOTc3ODg2MzQ1LDEyMT
+ExNTkxOTQsMjI5Mjc2NjI2LC0xMDgzNTM0MjUsLTM5NDgwMTcz
+MCwtMTUxMTg1MTEwMCwxMjExMTU5MTk0LC05NTM4MDE2MTksMT
+Y4MzMzNDE1MCw3Nzg3MzEwLDE2NTI4ODk0MDYsLTE5OTE3Njcx
+MDAsLTIwMTM3MDczNzIsLTExMTc1MTAxMjYsLTExMzE0MzUxNj
+QsMzg4OTE5ODMxLC0xNDYxNTk1NzM5LC0xOTY0Mjk1MDE1LC0y
+MzI3NTExNzddfQ==
 -->
