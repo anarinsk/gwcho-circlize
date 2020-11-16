@@ -86,14 +86,14 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
   
 - 아래에서는 이 두가지 유형의 코드 다이어그램 시각화를 달성하는 방법을 설명한다. 
     
-- 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅 하는 코드 다이어그램이다. `save_pdf=F`화면 상에만 나타난다. 
+- 첫번째 코드는 직업을 선택하고 이 직업이 어느 전공에서 왔는지를 하일라이팅 하는 코드 다이어그램이다. `save_pdf=F` 옵션 때문에 화면 상에만 나타난다. 
 
 
 ![](https://github.com/anarinsk/gwcho-circlize/blob/main/images/gwcho_5.png?raw=true){: style="margin: auto; display: block; border:1.5px solid #021a40;"}{: width="1000"}
 
 
 - 두번째 코드는 전공을 선택하고 이 전공이 어느 직업으로 가는지를 하일라이팅해주는 코드 다이어그램이다. pdf로 저장된다. 
-  - 화면에도 표시되고 pdf 파일로도 저장된다. 
+  - `save_pdf=T` 옵션 때문에 화면에도 표시되고 pdf 파일로도 저장된다. 
   - 저장된 pdf는 `Files` 탭에서 확인할 수 있다. 
   - 필요하면 여러 파일을 선택한 후 `More` -> `Export`로 다운로드해서 쓰면 된다. 
   - 굳이 pdf를 쓰는 이유는? 
@@ -106,7 +106,7 @@ wrap_oneside_chord("test_data.csv", c("공학", "인문사회"), alpha_h=0.7, al
 ## 함수 해설 
 
 
-그래프를 생성해주는 함수는 `wrap_oneside_chord`이다. 각각의 인자의 의미는 아래와 같다. 
+그래프를 생성해주는 함수는 `wrap_oneside_chord`이다. 함수 인자의 쓰임새는 아래와 같다. 
 
 
 wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf) 
@@ -171,11 +171,11 @@ wrap_oneside_chord(csv_name, filtering_elements, alpha_h, alpha_l, save_pdf)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0MDQzNTAsLTY2OTUzNjA4NSwtMTk3Nz
-g4NjM0NSwxMjExMTU5MTk0LDIyOTI3NjYyNiwtMTA4MzUzNDI1
-LC0zOTQ4MDE3MzAsLTE1MTE4NTExMDAsMTIxMTE1OTE5NCwtOT
-UzODAxNjE5LDE2ODMzMzQxNTAsNzc4NzMxMCwxNjUyODg5NDA2
-LC0xOTkxNzY3MTAwLC0yMDEzNzA3MzcyLC0xMTE3NTEwMTI2LC
-0xMTMxNDM1MTY0LDM4ODkxOTgzMSwtMTQ2MTU5NTczOSwtMTk2
-NDI5NTAxNV19
+eyJoaXN0b3J5IjpbLTExMjMyMTk4MTMsLTY2OTUzNjA4NSwtMT
+k3Nzg4NjM0NSwxMjExMTU5MTk0LDIyOTI3NjYyNiwtMTA4MzUz
+NDI1LC0zOTQ4MDE3MzAsLTE1MTE4NTExMDAsMTIxMTE1OTE5NC
+wtOTUzODAxNjE5LDE2ODMzMzQxNTAsNzc4NzMxMCwxNjUyODg5
+NDA2LC0xOTkxNzY3MTAwLC0yMDEzNzA3MzcyLC0xMTE3NTEwMT
+I2LC0xMTMxNDM1MTY0LDM4ODkxOTgzMSwtMTQ2MTU5NTczOSwt
+MTk2NDI5NTAxNV19
 -->
